@@ -1,0 +1,14 @@
+.navbar-brand {
+  font-family: 'Orbitron', sans-serif;
+  color: #00ff00 !important;
+}
+
+.nav-link {
+  color: #00cc66 !important;
+  transition: text-shadow 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #00ff00 !important;
+  text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00;
+}
