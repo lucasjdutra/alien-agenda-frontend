@@ -1,1 +1,48 @@
-<p>agenda works!</p>
+<div class="agenda-container">
+  <h1>Agenda</h1>
+
+  <form class="agenda-form">
+    <div class="form-group">
+      <label for="date">Data</label>
+      <input type="date" id="date" class="form-control" />
+    </div>
+    <div class="form-group">
+      <label for="time">Horário</label>
+      <input type="time" id="time" class="form-control" />
+    </div>
+    <div class="form-group">
+      <label for="description">Descrição</label>
+      <input type="text" id="description" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-success">Adicionar</button>
+  </form>
+
+  <table class="table table-dark mt-4">
+    <thead>
+      <tr>
+        <th>Data</th>
+        <th>Horário</th>
+        <th>Descrição</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2024-12-09</td>
+        <td>14:00</td>
+        <td>Reunião intergaláctica</td>
+        <td>
+          <span class="remove-icon">X</span>
+        </td>
+      </tr>
+      <tr>
+        <td>2024-12-10</td>
+        <td>10:00</td>
+        <td>Missão extraterrestre</td>
+        <td>
+          <span class="remove-icon">X</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

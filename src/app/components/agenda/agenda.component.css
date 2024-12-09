@@ -1,0 +1,55 @@
+:host {
+  display: block;
+  background-color: #000;
+  color: #00ff00;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.agenda-container {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #00cc66;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  color: #00ff00;
+  margin-bottom: 20px;
+}
+
+.agenda-form {
+  background-color: #121212;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+}
+
+.table {
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+}
+
+.table th,
+.table td {
+  color: #00ff00;
+}
+
+.remove-icon {
+  color: red;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.remove-icon:hover {
+  color: #ff4d4d;
+  transform: scale(1.2);
+}
+
+button {
+  margin: 0 5px;
+}
