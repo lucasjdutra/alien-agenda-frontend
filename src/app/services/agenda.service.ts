@@ -3,13 +3,12 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class AgendaService {
+  private apiUrl = 'https://api.alienagenda.duckdns.org/api/compromissos'; // URL da API
 
-  private apiUrl = 'http://localhost:8080/api/compromissos'; // URL da API
-
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   getCompromissos(): Observable<any> {
     return this.http.get<any>(this.apiUrl);
@@ -19,7 +18,7 @@ export class AgendaService {
     return this.http.post<any>(this.apiUrl, compromisso, {
       headers: new HttpHeaders({
         'Content-Type': 'application/json',
-      })
+      }),
     });
   }
 

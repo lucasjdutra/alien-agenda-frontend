@@ -20,6 +20,7 @@
     "@angular/router": "^18.2.0",
     "@ng-bootstrap/ng-bootstrap": "^17.0.1",
     "@popperjs/core": "^2.11.8",
+    "alien-agenda": "file:",
     "bootstrap": "^5.3.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
