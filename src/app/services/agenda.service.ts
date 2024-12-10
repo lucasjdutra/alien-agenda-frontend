@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class AgendaService {
 
-  private apiUrl = 'http://localhost:8080/api/agenda'; // URL da API
+  private apiUrl = 'http://localhost:8080/api/compromissos'; // URL da API
 
   constructor(private http: HttpClient) { }
 
